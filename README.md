@@ -16,11 +16,11 @@
 
 ## ✨ Features
 
-- **🖌️ Sketch-to-Anime:** Transform your hand-drawn sketches into **high-quality anime illustrations**.  
-- **🤖 AI-Powered:** Harnesses cutting-edge AI for smooth, realistic art generation.  
-- **🖼️ Reference Integration:** Guide the AI with your favorite anime characters or styles.  
-- **🎨 Custom Styles:** Pick from various drawing styles to **personalize your artwork**.  
-- **🧑‍🎨 User-Friendly:** Intuitive interface suitable for both beginners and professional artists.
+- **💧 Sketch-to-Anime:** Transform your hand-drawn sketches into **high-quality anime illustrations**.  
+- **💧 AI-Powered:** Harnesses cutting-edge AI for smooth, realistic art generation.  
+- **💧 Reference Integration:** Guide the AI with your favorite anime characters or styles.  
+- **💧 Custom Styles:** Pick from various drawing styles to **personalize your artwork**.  
+- **💧 User-Friendly:** Intuitive interface suitable for both beginners and professional artists.
 
 ---
 
