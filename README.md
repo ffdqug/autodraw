@@ -1,4 +1,4 @@
-RimuDraw AI
+[RimuDraw AI
 
 ![alt text](/logo.png)
 
@@ -46,3 +46,4 @@ We welcome contributions! If you're interested in improving RimuDraw AI, please 
 Sources
 help
 RimuDraw - AI-Powered Anime Art Generator
+](https://files.catbox.moe/f8tj1b.png)
