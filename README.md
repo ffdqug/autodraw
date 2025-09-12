@@ -7,8 +7,8 @@
 
 <p align="center">
   <a href="https://rimudraw.vercel.app/"><img src="https://img.shields.io/badge/Live-Demo-blue?style=flat-square&logo=vercel" alt="Live Demo"/></a>
-  <a href="https://github.com/username/RimuDraw-AI/stargazers"><img src="https://img.shields.io/github/stars/ryuhandev/autodraw?style=flat-square&logo=github" alt="GitHub Stars"/></a>
-  <a href="https://github.com/username/RimuDraw-AI/issues"><img src="https://img.shields.io/github/issues/ryuhandev/autodraw?style=flat-square&logo=github" alt="GitHub Issues"/></a>
+  <a href="https://github.com/ryuhandev/autodraw/stargazers"><img src="https://img.shields.io/github/stars/ryuhandev/autodraw?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ryuhandev/autodraw/issues"><img src="https://img.shields.io/github/issues/ryuhandev/autodraw?style=flat-square&logo=github" alt="GitHub Issues"/></a>
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
 </p>
 
