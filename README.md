@@ -4,8 +4,6 @@
 
 # RimuDraw AI
 
-[![RimuDraw Logo](/logo.png)](https://rimudraw.vercel.app/)
-
 Unleash your creativity with RimuDraw AI! Transform your hand-drawn sketches into stunning anime artwork effortlessly using advanced artificial intelligence. Just upload your sketch and a reference image, and let AI bring your vision to life.
 
 ## ✨ Features
