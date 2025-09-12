@@ -2,13 +2,13 @@
   <img src="https://files.catbox.moe/f8tj1b.png" alt="Rimuru" width="150"/>
 </p>
 
-<h1 align="center">🎨 RimuDraw AI</h1>
+<h1 align="center">💧 RimuDraw AI</h1>
 <p align="center">Turn your sketches into breathtaking <strong>anime artwork</strong> with the power of AI!</p>
 
 <p align="center">
   <a href="https://rimudraw.vercel.app/"><img src="https://img.shields.io/badge/Live-Demo-blue?style=flat-square&logo=vercel" alt="Live Demo"/></a>
-  <a href="https://github.com/username/RimuDraw-AI/stargazers"><img src="https://img.shields.io/github/stars/username/RimuDraw-AI?style=flat-square&logo=github" alt="GitHub Stars"/></a>
-  <a href="https://github.com/username/RimuDraw-AI/issues"><img src="https://img.shields.io/github/issues/username/RimuDraw-AI?style=flat-square&logo=github" alt="GitHub Issues"/></a>
+  <a href="https://github.com/username/RimuDraw-AI/stargazers"><img src="https://img.shields.io/github/stars/ryuhandev/autodraw?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/username/RimuDraw-AI/issues"><img src="https://img.shields.io/github/issues/ryuhandev/autodraw?style=flat-square&logo=github" alt="GitHub Issues"/></a>
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
 </p>
 
