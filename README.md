@@ -2,32 +2,54 @@
   <img src="https://files.catbox.moe/f8tj1b.png" alt="Rimuru" width="150"/>
 </p>
 
-# RimuDraw AI
+<h1 align="center">🎨 RimuDraw AI</h1>
+<p align="center">Turn your sketches into breathtaking <strong>anime artwork</strong> with the power of AI!</p>
 
-Unleash your creativity with RimuDraw AI! Transform your hand-drawn sketches into stunning anime artwork effortlessly using advanced artificial intelligence. Just upload your sketch and a reference image, and let AI bring your vision to life.
+<p align="center">
+  <a href="https://rimudraw.vercel.app/"><img src="https://img.shields.io/badge/Live-Demo-blue?style=flat-square&logo=vercel" alt="Live Demo"/></a>
+  <a href="https://github.com/username/RimuDraw-AI/stargazers"><img src="https://img.shields.io/github/stars/username/RimuDraw-AI?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/username/RimuDraw-AI/issues"><img src="https://img.shields.io/github/issues/username/RimuDraw-AI?style=flat-square&logo=github" alt="GitHub Issues"/></a>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
+</p>
+
+---
 
 ## ✨ Features
 
-*   **Sketch-to-Anime:** Convert your drawings into high-quality anime illustrations.
-*   **AI-Powered:** Utilizes cutting-edge AI for seamless art generation.
-*   **Reference Integration:** Guide the AI with your favorite anime reference images.
-*   **Custom Styles:** Choose from various drawing styles to personalize your output.
-*   **User-Friendly:** An intuitive interface designed for artists of all levels.
+- **🖌️ Sketch-to-Anime:** Transform your hand-drawn sketches into **high-quality anime illustrations**.  
+- **🤖 AI-Powered:** Harnesses cutting-edge AI for smooth, realistic art generation.  
+- **🖼️ Reference Integration:** Guide the AI with your favorite anime characters or styles.  
+- **🎨 Custom Styles:** Pick from various drawing styles to **personalize your artwork**.  
+- **🧑‍🎨 User-Friendly:** Intuitive interface suitable for both beginners and professional artists.
 
-## 🚀 Get Started
+---
 
-1.  **Upload Your Sketch:** Provide your drawing or a blank page.
-2.  **Add Anime Reference:** Upload an image to set the desired anime style.
-3.  **Generate Art:** Click "Generate Art" and watch the magic happen!
+## 🚀 How to Use
+
+1. **Upload Your Sketch:** Choose your drawing or start from a blank canvas.  
+2. **Add Anime Reference:** Upload an image to define the style you want.  
+3. **Generate Art:** Hit **"Generate Art"** and watch your creation come to life!
+
+---
 
 ## 🌐 Live Demo
 
-Experience RimuDraw AI now: [https://rimudraw.vercel.app/](https://rimudraw.vercel.app/)
+Try it now: [RimuDraw AI Demo](https://rimudraw.vercel.app/)
+
+---
 
 ## 🤝 Contributing
 
-Interested in contributing? Feel free to fork the repository, make changes, and submit a pull request!
+Want to contribute?  
+
+1. Fork the repository  
+2. Make your improvements  
+3. Submit a Pull Request  
+
+Let's create amazing anime art together!  
+
+---
 
 ## 📄 License
 
-(Consider adding a license, e.g., MIT, if you plan to make this project open source.)
+This project is licensed under the MIT License.
