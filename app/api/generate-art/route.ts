@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
     const drawingBookBase64 = Buffer.from(drawingBookBuffer).toString("base64")
     const referenceBase64 = Buffer.from(referenceBuffer).toString("base64")
 
-    console.log("[v0] Images converted to base64")
+    console.log("[Rimuru] Images converted to base64")
 
     const stylePrompts = {
       manga: `Take the anime character from the second image (reference) and draw it onto the drawing book page from the first image in manga style. Create a pencil sketch style drawing that looks hand-drawn with black and white shading, cross-hatching, and manga-style line work. The drawing should appear naturally placed on the book page as if someone drew it by hand. Make it look realistic and not AI-generated.${signature ? ` Add the signature "${signature}" in the bottom right corner of the page.` : ""}`,
@@ -41,13 +41,13 @@ export async function POST(request: NextRequest) {
 
     const enhancedPrompt = stylePrompts[style as keyof typeof stylePrompts] || stylePrompts.manga
 
-    console.log("[v0] Enhanced prompt prepared for style:", style)
+    console.log("[Rimuru] Enhanced prompt prepared for style:", style)
 
     const model = genAI.getGenerativeModel({
       model: "gemini-2.0-flash-preview-image-generation",
     })
 
-    console.log("[v0] Attempting to generate image...")
+    console.log("[Rimuru] Attempting to generate image...")
 
     const result = await model.generateContent({
       contents: [
@@ -76,7 +76,7 @@ export async function POST(request: NextRequest) {
       },
     })
 
-    console.log("[v0] Content generated successfully")
+    console.log("[Rimuru] Content generated successfully")
 
     const response = await result.response
 
@@ -99,7 +99,7 @@ export async function POST(request: NextRequest) {
     }
 
     const generatedText = response.text()
-    console.log("[v0] No image generated, returning text response")
+    console.log("[Rimuru] No image generated, returning text response")
 
     return NextResponse.json({
       success: false,
@@ -108,10 +108,10 @@ export async function POST(request: NextRequest) {
       style: style,
     })
   } catch (error) {
-    console.error("[v0] API Error:", error)
+    console.error("[Rimuru] API Error:", error)
     if (error instanceof Error) {
-      console.error("[v0] Error message:", error.message)
-      console.error("[v0] Error stack:", error.stack)
+      console.error("[Rimuru] Error message:", error.message)
+      console.error("[Rimuru] Error stack:", error.stack)
 
       if (error.message.includes("429") || error.message.includes("quota") || error.message.includes("rate limit")) {
         return NextResponse.json(
