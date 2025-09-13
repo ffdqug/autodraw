@@ -153,7 +153,7 @@ export default function AutoDrawPage() {
           <div className="text-center space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <div className="inline-flex items-center space-x-3 mb-4">
               <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                RimuDraw AI
+                xiaoyanDraw Ai
               </h1>
             </div>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
