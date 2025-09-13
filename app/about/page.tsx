@@ -51,7 +51,7 @@ export default function AboutPage() {
                 <div className="absolute inset-1 rounded-full bg-background shadow-2xl"></div>
                 <div className="absolute inset-2 rounded-full overflow-hidden bg-background border-2 border-blue-500/20">
                   <Image
-                    src="/developer-profile.jpeg"
+                    src="https://files.catbox.moe/kear6g.jpg"
                     alt="Ryuhan/Rohan Profile"
                     width={128}
                     height={128}
