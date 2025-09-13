@@ -38,6 +38,7 @@ colorize_pencil: `Take the anime character from the second image (reference) and
 
   auto_style: `Take the anime character from the second image (reference) and draw it onto the drawing book page from the first image with 99% accuracy and professional coloring. Create a masterpiece-quality drawing that looks like it was done by a professional artist with perfect proportions, detailed coloring, smooth gradients, and realistic shading. Make it look hand-drawn, not AI-generated.${signature ? ` Add the signature "${signature}" in the bottom right corner of the page.` : ""}`,  
 }
+  
     const enhancedPrompt = stylePrompts[style as keyof typeof stylePrompts] || stylePrompts.manga
 
     console.log("[Rimuru] Enhanced prompt prepared for style:", style)
