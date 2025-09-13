@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://files.catbox.moe/f8tj1b.png" alt="Rimuru" width="150"/>
+  <img src="https://files.catbox.moe/bm20p3.jpg" alt="Xiaoyan" width="150"/>
 </p>
 
 <h1 align="center">💧 RimuDraw AI</h1>
