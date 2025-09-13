@@ -2,7 +2,7 @@
   <img src="https://files.catbox.moe/bm20p3.jpg" alt="Xiaoyan" width="150"/>
 </p>
 
-<h1 align="center">💧 RimuDraw AI</h1>
+<h1 align="center">💧 XiaoyanAI</h1>
 <p align="center">Turn your sketches into breathtaking <strong>anime artwork</strong> with the power of AI!</p>
 
 <p align="center">
