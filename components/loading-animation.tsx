@@ -59,7 +59,7 @@ export default function LoadingAnimation({ isVisible, onComplete }: LoadingAnima
         {/* Loading GIF */}
         <div className="relative w-48 h-48 mx-auto">
           <Image
-            src="/loading-animation.gif"
+            src="https://media1.tenor.com/m/T6cnb8csQAMAAAAC/%E3%81%A1%E3%82%87%E3%81%93%E3%81%88%E3%81%84-chocoeiru.gif"
             alt="Generating artwork..."
             fill
             className="object-contain rounded-lg"
