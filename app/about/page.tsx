@@ -102,7 +102,7 @@ export default function AboutPage() {
                   GitHub
                 </a>
                 <a
-                  href="https://www.facebook.comprofile.php?id=61559572167835"
+                  href="https://www.facebook.com/61559572167835"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-4 py-2 bg-muted rounded-lg hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"
