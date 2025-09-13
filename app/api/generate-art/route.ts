@@ -13,8 +13,8 @@ export async function POST(request: NextRequest) {
     const style = formData.get("style") as string
     const signature = formData.get("signature") as string
 
-    console.log("[v0] Received style:", style)
-    console.log("[v0] Has signature:", !!signature)
+    console.log("[Rimuru] Received style:", style)
+    console.log("[Rimuru] Has signature:", !!signature)
 
     if (!drawingBook || !reference) {
       return NextResponse.json({ error: "Both images are required" }, { status: 400 })
@@ -30,15 +30,14 @@ export async function POST(request: NextRequest) {
     console.log("[Rimuru] Images converted to base64")
 
     const stylePrompts = {
-      manga: `Take the anime character from the second image (reference) and draw it onto the drawing book page from the first image in manga style. Create a pencil sketch style drawing that looks hand-drawn with black and white shading, cross-hatching, and manga-style line work. The drawing should appear naturally placed on the book page as if someone drew it by hand. Make it look realistic and not AI-generated.${signature ? ` Add the signature "${signature}" in the bottom right corner of the page.` : ""}`,
+  manga: `Bisakah anda edit gambar pertama dan tempelkan gambar kedua ke sketchbook di gambar pertama dengan art style & arsiran serta warna yang sama seperti gambar pertama tanpa mistake sekalipun. Jadi terlihat seperti di gambar ulang oleh tangan manusia.${signature ? ` Tambahkan tanda tangan "${signature}" di pojok kanan bawah halaman.` : ""}`,
 
-      colorize_pencil: `Take the anime character from the second image (reference) and draw it onto the drawing book page from the first image using colored pencil style. Use realistic colored pencil techniques with 9 colors: soft blending, layered coloring, and hand-drawn shading that looks like it was colored by a human artist. The drawing should appear naturally placed on the book page with realistic pencil texture and coloring.${signature ? ` Add the signature "${signature}" in the bottom right corner of the page.` : ""}`,
+  colorize_pencil: `Tempelkan gambar kedua ke buku gambar di gambar pertama, buat tanpa mistake dengan coloring seperti menggunakan pensil warna yang diarsir oleh tangan manusia dan tidak terlihat seperti generate dari Ai.${signature ? ` Tambahkan tanda tangan "${signature}" di pojok kanan bawah halaman.` : ""}`,
 
-      colorize_pen: `Take the anime character from the second image (reference) and draw it onto the drawing book page from the first image using colored pen style. Use 9 colored pens with detailed cross-hatching, line work, and pen-style shading techniques. The drawing should look like it was carefully drawn by hand with colored pens, showing realistic pen strokes and detailed shading.${signature ? ` Add the signature "${signature}" in the bottom right corner of the page.` : ""}`,
+  colorize_pen: `Tempelkan gambar kedua ke buku gambar di gambar pertama, buat tanpa mistake dengan coloring seperti menggunakan pulpen 9 warna yang diarsir oleh tangan (dengan arsiran sedetail mungkin) manusia dan tidak terlihat seperti generate dari Ai.${signature ? ` Tambahkan tanda tangan "${signature}" di pojok kanan bawah halaman.` : ""}`,
 
-      auto_style: `Take the anime character from the second image (reference) and draw it onto the drawing book page from the first image with 99% accuracy and professional coloring. Create a masterpiece-quality drawing that looks like it was done by a professional artist with perfect proportions, detailed coloring, smooth gradients, and realistic shading. Make it look hand-drawn, not AI-generated.${signature ? ` Add the signature "${signature}" in the bottom right corner of the page.` : ""}`,
-    }
-
+  auto_style: `Tempelkan gambar kedua ke buku gambar di gambar pertama, buat tanpa mistake dengan coloring auto detailing 99% semirip mungkin tetapi tidak terlihat seperti Ai. (jadi seperti sepuh gambar dengan skill coloring yang gila)${signature ? ` Tambahkan tanda tangan "${signature}" di pojok kanan bawah halaman.` : ""}`,
+}
     const enhancedPrompt = stylePrompts[style as keyof typeof stylePrompts] || stylePrompts.manga
 
     console.log("[Rimuru] Enhanced prompt prepared for style:", style)
@@ -118,7 +117,7 @@ export async function POST(request: NextRequest) {
           {
             error: "API Quota Exceeded",
             details:
-              "You have exceeded your Gemini API quota limits. Please wait a few minutes before trying again, or check your Google AI Studio billing settings to increase your quota.",
+              "You have exceeded your API quota limits. Please wait a few minutes before trying again, or check your Google AI Studio billing settings to increase your quota.",
             isQuotaError: true,
           },
           { status: 429 },
