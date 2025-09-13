@@ -87,7 +87,7 @@ export default function AboutPage() {
                 </Badge>
                 <Badge variant="secondary" className="flex items-center gap-1">
                   <Heart className="w-3 h-3" />
-                  Anime & Manga
+                  Donghub & Manga
                 </Badge>
               </div>
 
