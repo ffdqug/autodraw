@@ -27,7 +27,7 @@ export default function AboutPage() {
           {/* Header */}
           <div className="text-center space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              About RimuDraw
+              About xiaoyanDraw
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">Meet the creator behind the magic</p>
           </div>
@@ -67,7 +67,7 @@ export default function AboutPage() {
                   style={{ animationDuration: "2.5s" }}
                 ></div>
               </div>
-              <CardTitle className="text-2xl">Ryuhan / Rohan</CardTitle>
+              <CardTitle className="text-2xl">fahri</CardTitle>
               <CardDescription>Full-Stack Developer & AI Enthusiast</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
