@@ -72,7 +72,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="space-y-6">
               <p className="text-center text-muted-foreground leading-relaxed">
-                Passionate developer who loves combining creativity with technology. RimuDraw was born from the idea of
+                Passionate developer who loves combining creativity with technology. xiaoyanDraw was born from the idea of
                 making AI-powered art creation accessible to everyone, especially anime and manga enthusiasts.
               </p>
 
@@ -126,23 +126,23 @@ export default function AboutPage() {
           {/* Project Story */}
           <Card className="animate-in fade-in slide-in-from-right-4 duration-1000 delay-500">
             <CardHeader>
-              <CardTitle>The Story Behind RimuDraw</CardTitle>
+              <CardTitle>The Story Behind xiaoyanDraw</CardTitle>
               <CardDescription>How this project came to life</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground leading-relaxed">
-                RimuDraw started as a personal project to explore the intersection of AI and creative art. As an anime
+                xiaoyanDraw started as a personal project to explore the intersection of AI and creative art. As an donghub
                 enthusiast and developer, I wanted to create a tool that could help artists and fans bring their
                 favorite characters to life in their own sketchbooks.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Using Google's Gemini AI, RimuDraw can understand both your blank canvas and reference images, then
+                Using Google's Gemini AI, xiaoyanDraw can understand both your blank canvas and reference images, then
                 generate artwork that looks hand-drawn rather than AI-generated. The goal is to make AI feel like a
                 creative partner rather than a replacement for human artistry.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 This project represents countless hours of experimentation, learning, and passion for both technology
-                and art. I hope RimuDraw inspires creativity and brings joy to fellow anime and art lovers around the
+                and art. I hope xiaoyanDraw inspires creativity and brings joy to fellow anime and art lovers around the
                 world.
               </p>
             </CardContent>
